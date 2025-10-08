@@ -1,22 +1,22 @@
 #include <stdio.h>
 
-int main(){
+    int main(){
 
-char name[50];
+       char name[50];
 
-int age;
+        int age;
 
-printf("Enter your name: ");
+        printf("Enter your name: ");
 
-scanf("%s", name);
+        scanf("%s", &name);
 
-printf("Enter your age: ");
+        printf("Enter your age: ");
 
-scanf("%d", age);
+        scanf("%d", &age);
 
-printf("Hello, %s! You are %d Years old .\n", name, age);
+      printf("Hello %s! You are %d Years old .\n", name, age);
 
-//Printf("My name is Isaac, I'm 23 years old, and I love programming.\n");
+    printf("My favorite hobby is coding");
 
 return 0;
 
